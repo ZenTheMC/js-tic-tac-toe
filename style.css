@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(43, 41, 41);
     display: grid;
     align-items: center;
     justify-content: center;
@@ -14,11 +14,29 @@ html, body {
     text-align: center;
     height: 400px;
     width: 400px;
-    background-color: gray;
+    background-color: rgb(165, 163, 163);
 }
 
 .grid-box {
-    border: 1px solid blue;
-    color: red;
-    font-size: 100px;
+    border: 1px solid rgb(26, 26, 156);
+    color: rgb(167, 33, 33);
+    font-size: 60px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-weight: 900;
+}
+
+h1 {
+    color: rgb(237, 241, 213);
+    text-align: center;
+}
+
+.game-board-button {
+    background-color: white;
+    grid-row: 2 / 3;
+}
+
+.start-game-button {
+    margin-top: 25px;
 }
